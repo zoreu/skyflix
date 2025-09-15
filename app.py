@@ -14,7 +14,7 @@ app.add_middleware(
 )
 
 # URL de destino para o redirecionamento
-TARGET_URL = "https://da5f663b4690-skyflixfork3.baby-beamup.club"
+TARGET_URL = "https://da5f663b4690-skyflixfork4.baby-beamup.club"
 
 @app.api_route("/{path:path}", methods=["GET", "POST"])
 async def redirect_all(request: Request, path: str):
